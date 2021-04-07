@@ -8,6 +8,8 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 /**
  * Hlavní třída, která spouští celou aplikaci pomocí Spring Boot.
+ *
+ * Anotace {@link SpringBootApplication} oznamuje Springu, že se jedná o aplikaci typu Spring Boot a má použít výchozí konfiguraci všude, kde je to možné.
  */
 @SpringBootApplication
 public class Application {

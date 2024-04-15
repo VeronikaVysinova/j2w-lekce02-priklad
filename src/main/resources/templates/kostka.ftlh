@@ -26,7 +26,7 @@ Přidáním [#ftl] říkáme, že nejde o obyčejný HTML soubor, ale o šablonu
 <div>
     <div>
         [#-- Do atributu „src“ dosadíme atribut modelu „${obrazek}“. --]
-        <img class="kostka" src="${obrazek}"/>
+        <img class="kostka" src="${obrazek}" alt=""/>
     </div>
 
     [#-- Do textu dosadíme hodnotu atributu „cislo“ z modelu. --]

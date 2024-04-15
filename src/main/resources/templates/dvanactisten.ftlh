@@ -26,12 +26,12 @@ Přidáním [#ftl] říkáme, že nejde o obyčejný HTML soubor, ale o šablonu
 <div>
     <div>
         [#-- Do atributu „src“ dosadíme číslo obrázku první kostky „${kostka1}“. --]
-        <img class="kostka" src="/images/kostka-${kostka1}.svg"/>
+        <img class="kostka" src="/images/kostka-${kostka1}.svg" alt=""/>
 
         [#-- Podmínka  druhou kostku budeme zobrazovat jenom tehdy, pokud číslo na ní je větší než 0. --]
         [#if kostka2 > 0]
-            [#-- Do atributu „src“ dosadíme číslo obrázku druhé kostky „${kostka2}“. --]
-            <img class="kostka" src="/images/kostka-${kostka2}.svg"/>
+        [#-- Do atributu „src“ dosadíme číslo obrázku druhé kostky „${kostka2}“. --]
+            <img class="kostka" src="/images/kostka-${kostka2}.svg" alt=""/>
         [/#if]
     </div>
 
